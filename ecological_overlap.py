@@ -790,7 +790,9 @@ if (
     )
 
 # Add calculated time
-calculated_time = datetime.now()
+calculated_time = datetime.now().replace(
+    microsecond=0
+)
 
 result[
     "calculated_time"
