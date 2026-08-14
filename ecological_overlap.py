@@ -790,11 +790,11 @@ if (
     )
 
 # Add calculated time
-calculated_at = datetime.now()
+calculated_time = datetime.now()
 
 result[
-    "calculated_at"
-] = calculated_at
+    "calculated_time"
+] = calculated_time
 
 # Save to CSV
 output_file = (
@@ -917,8 +917,8 @@ print(
 
 
 print(
-    "Calculated at:",
-    calculated_at
+    "Calculated time:",
+    calculated_time
 )
 
 
