@@ -3,7 +3,7 @@
 # ============================================================
 #
 # This file contains the ecological layer configuration used
-# by test_ecological_overlap.py.
+# by ecological_overlap.py.
 #
 # Add or remove layers here instead of modifying the main
 # processing script.
